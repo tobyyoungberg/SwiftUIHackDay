@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CF3236370B300258393 /* LoginSignupView.swift */; };
+		811C1CFE2363772F00258393 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CFD2363772F00258393 /* SignUpView.swift */; };
+		811C1D002363774300258393 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CFF2363774300258393 /* SignInView.swift */; };
+		811C1D02236377B900258393 /* GetYourMoneyRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1D01236377B900258393 /* GetYourMoneyRightView.swift */; };
+		811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */; };
 		F4D8A242236263280022478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A241236263280022478D /* AppDelegate.swift */; };
 		F4D8A244236263280022478D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A243236263280022478D /* SceneDelegate.swift */; };
 		F4D8A2482362632B0022478D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D8A2472362632B0022478D /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		811C1CF3236370B300258393 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
+		811C1CFD2363772F00258393 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		811C1CFF2363774300258393 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		811C1D01236377B900258393 /* GetYourMoneyRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetYourMoneyRightView.swift; sourceTree = "<group>"; };
+		811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackgroundLabel.swift; sourceTree = "<group>"; };
 		F4D8A23E236263280022478D /* SwiftUIHackDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIHackDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D8A241236263280022478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D8A243236263280022478D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				811C1CF3236370B300258393 /* LoginSignupView.swift */,
+				811C1CFD2363772F00258393 /* SignUpView.swift */,
+				811C1CFF2363774300258393 /* SignInView.swift */,
+				811C1D01236377B900258393 /* GetYourMoneyRightView.swift */,
+				811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */,
 			);
 			path = LoginSignUp;
 			sourceTree = "<group>";
@@ -300,11 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811C1CFE2363772F00258393 /* SignUpView.swift in Sources */,
 				811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */,
 				F4D8A278236364550022478D /* RelayView.swift in Sources */,
 				F4D8A242236263280022478D /* AppDelegate.swift in Sources */,
 				F4D8A244236263280022478D /* SceneDelegate.swift in Sources */,
 				F4D8A275236355970022478D /* MainView.swift in Sources */,
+				811C1D002363774300258393 /* SignInView.swift in Sources */,
+				811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */,
+				811C1D02236377B900258393 /* GetYourMoneyRightView.swift in Sources */,
 				F4D8A2732363557D0022478D /* MemberHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIHackDay/Preview Content\"";
-				DEVELOPMENT_TEAM = 63AT93P487;
+				DEVELOPMENT_TEAM = 94C4Q5DME5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIHackDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,7 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIHackDay/Preview Content\"";
-				DEVELOPMENT_TEAM = 63AT93P487;
+				DEVELOPMENT_TEAM = 94C4Q5DME5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIHackDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
