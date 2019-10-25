@@ -21,7 +21,7 @@ struct MainView: View {
                     Image("relay")
                     Text("Relay")
                 }
-        }
+        }.accentColor(Color("turquoise400"))
     }
 }
 
