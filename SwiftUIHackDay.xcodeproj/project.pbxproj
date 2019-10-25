@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CF3236370B300258393 /* LoginSignupView.swift */; };
 		F4D8A242236263280022478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A241236263280022478D /* AppDelegate.swift */; };
 		F4D8A244236263280022478D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A243236263280022478D /* SceneDelegate.swift */; };
 		F4D8A2482362632B0022478D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D8A2472362632B0022478D /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		811C1CF3236370B300258393 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
 		F4D8A23E236263280022478D /* SwiftUIHackDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIHackDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D8A241236263280022478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D8A243236263280022478D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		811C1CF5236370BD00258393 /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				811C1CF3236370B300258393 /* LoginSignupView.swift */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
 		F4D8A235236263280022478D = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		F4D8A240236263280022478D /* SwiftUIHackDay */ = {
 			isa = PBXGroup;
 			children = (
+				811C1CF5236370BD00258393 /* LoginSignUp */,
 				F4D8A2762363643F0022478D /* Relay */,
 				F4D8A271236355660022478D /* MemberHome */,
 				F4D8A241236263280022478D /* AppDelegate.swift */,
@@ -289,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */,
 				F4D8A278236364550022478D /* RelayView.swift in Sources */,
 				F4D8A242236263280022478D /* AppDelegate.swift in Sources */,
 				F4D8A244236263280022478D /* SceneDelegate.swift in Sources */,
