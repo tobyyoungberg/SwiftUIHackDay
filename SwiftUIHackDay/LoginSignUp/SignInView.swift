@@ -14,9 +14,11 @@ struct SignInView: View {
     
     private let fontName = "AvenirNext-DemiBold"
     @State var isPasswordHidden = true
+    @State var showMainView = false
     
     var body: some View {
         VStack(alignment: .center) {
+            Spacer()
             HStack {
                 Text("Sign in")
                     .font(Font.custom(fontName, size: 24))
@@ -64,13 +66,15 @@ struct SignInView: View {
                 .multilineTextAlignment(.center)
                 .foregroundColor(.gray)
         } // Top VSTack
-        .padding()
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+            .padding()
+            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+            .overlay(self.showMainView ? MainView() : nil)
+            
         
     }
     
     private func signInButtonTapped() {
-        
+        showMainView.toggle()
     }
     
     private func forgotPasswordButtonTapped() {
