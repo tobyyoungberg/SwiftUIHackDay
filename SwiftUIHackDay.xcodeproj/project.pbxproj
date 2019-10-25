@@ -22,6 +22,10 @@
 		F4D8A2732363557D0022478D /* MemberHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A2722363557D0022478D /* MemberHomeView.swift */; };
 		F4D8A275236355970022478D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A274236355970022478D /* MainView.swift */; };
 		F4D8A278236364550022478D /* RelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A277236364550022478D /* RelayView.swift */; };
+		F4D8A27A23637E400022478D /* AccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27923637E400022478D /* AccountHeaderView.swift */; };
+		F4D8A27C2363899D0022478D /* SmallImageMemberFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27B2363899D0022478D /* SmallImageMemberFeedCell.swift */; };
+		F4D8A27E2363910D0022478D /* MemberFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27D2363910D0022478D /* MemberFeedCell.swift */; };
+		F4D8A280236396CE0022478D /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27F236396CE0022478D /* NavigationConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		F4D8A2722363557D0022478D /* MemberHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberHomeView.swift; sourceTree = "<group>"; };
 		F4D8A274236355970022478D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F4D8A277236364550022478D /* RelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayView.swift; sourceTree = "<group>"; };
+		F4D8A27923637E400022478D /* AccountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderView.swift; sourceTree = "<group>"; };
+		F4D8A27B2363899D0022478D /* SmallImageMemberFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallImageMemberFeedCell.swift; sourceTree = "<group>"; };
+		F4D8A27D2363910D0022478D /* MemberFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberFeedCell.swift; sourceTree = "<group>"; };
+		F4D8A27F236396CE0022478D /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,7 @@
 				F4D8A24C2362632B0022478D /* LaunchScreen.storyboard */,
 				F4D8A24F2362632B0022478D /* Info.plist */,
 				F4D8A2492362632B0022478D /* Preview Content */,
+				F4D8A27F236396CE0022478D /* NavigationConfigurator.swift */,
 			);
 			path = SwiftUIHackDay;
 			sourceTree = "<group>";
@@ -169,6 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				F4D8A2722363557D0022478D /* MemberHomeView.swift */,
+				F4D8A27923637E400022478D /* AccountHeaderView.swift */,
+				F4D8A27B2363899D0022478D /* SmallImageMemberFeedCell.swift */,
+				F4D8A27D2363910D0022478D /* MemberFeedCell.swift */,
 			);
 			path = MemberHome;
 			sourceTree = "<group>";
@@ -315,6 +327,8 @@
 				811C1CFE2363772F00258393 /* SignUpView.swift in Sources */,
 				811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */,
 				F4D8A278236364550022478D /* RelayView.swift in Sources */,
+				F4D8A27E2363910D0022478D /* MemberFeedCell.swift in Sources */,
+				F4D8A27C2363899D0022478D /* SmallImageMemberFeedCell.swift in Sources */,
 				F4D8A242236263280022478D /* AppDelegate.swift in Sources */,
 				F4D8A244236263280022478D /* SceneDelegate.swift in Sources */,
 				F4D8A275236355970022478D /* MainView.swift in Sources */,
@@ -322,6 +336,8 @@
 				811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */,
 				811C1D02236377B900258393 /* GetYourMoneyRightView.swift in Sources */,
 				F4D8A2732363557D0022478D /* MemberHomeView.swift in Sources */,
+				F4D8A280236396CE0022478D /* NavigationConfigurator.swift in Sources */,
+				F4D8A27A23637E400022478D /* AccountHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
