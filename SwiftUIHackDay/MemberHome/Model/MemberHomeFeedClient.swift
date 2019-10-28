@@ -15,6 +15,11 @@ enum MemberHomeFeedClientError: Error {
 class MemberHomeViewModel: ObservableObject {
     @Published var accountSummary: MemberHomeFeedAccountSummary = MemberHomeFeedAccountSummary(accounts: [])
     @Published var feedPage: MemberHomeFeedPage = MemberHomeFeedPage(next: nil, content: [], flags: nil)
+    
+    init(accountSummary: MemberHomeFeedAccountSummary = MemberHomeFeedAccountSummary(accounts: []), feedPage: MemberHomeFeedPage = MemberHomeFeedPage(next: nil, content: [], flags: nil)) {
+        self.accountSummary = accountSummary
+        self.feedPage = feedPage
+    }
 }
 
 protocol MemberHomeFeedClient {

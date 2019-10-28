@@ -36,10 +36,13 @@ struct AccountHeaderView: View {
     }
 }
 
-//struct AccountHeaderView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Group {
-//            AccountHeaderView(accountSummary: MemberHomeFeedAccountSummary(accounts: [])).previewLayout(PreviewLayout.sizeThatFits)
-//        }
-//    }
-//}
+struct AccountHeaderView_Previews: PreviewProvider {
+    @State static var viewModel: MemberHomeViewModel = MemberHomeViewModel(accountSummary: MemberHomeFeedAccountSummary(accounts: [
+        MemberHomeFeedAccount(id: "a", product: "Money", title: "MoneyAccount", balance: "$100.00", lastUpdated: nil, action: nil),
+        MemberHomeFeedAccount(id: "b", product: "Loans", title: "Person Loan", balance: "$2,000.43", lastUpdated: nil, action: nil)
+    ]))
+    
+    static var previews: some View {
+        AccountHeaderView(accountSummary: $viewModel.accountSummary).previewLayout(PreviewLayout.sizeThatFits)
+    }
+}

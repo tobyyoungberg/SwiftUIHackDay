@@ -35,7 +35,6 @@ struct GetYourMoneyRightView: View {
                 .foregroundColor(Color("eggplant-400"))
                 .padding(.top)
         }
-        
     }
 }
 
