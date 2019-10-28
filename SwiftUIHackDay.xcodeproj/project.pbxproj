@@ -12,6 +12,8 @@
 		811C1D002363774300258393 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CFF2363774300258393 /* SignInView.swift */; };
 		811C1D02236377B900258393 /* GetYourMoneyRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1D01236377B900258393 /* GetYourMoneyRightView.swift */; };
 		811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */; };
+		F4D5FB4D2365266500940925 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D8A2922364D5870022478D /* Swinject.framework */; };
+		F4D5FB4E2365266500940925 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4D8A2922364D5870022478D /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F4D8A242236263280022478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A241236263280022478D /* AppDelegate.swift */; };
 		F4D8A244236263280022478D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A243236263280022478D /* SceneDelegate.swift */; };
 		F4D8A2482362632B0022478D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D8A2472362632B0022478D /* Assets.xcassets */; };
@@ -26,6 +28,12 @@
 		F4D8A27C2363899D0022478D /* SmallImageMemberFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27B2363899D0022478D /* SmallImageMemberFeedCell.swift */; };
 		F4D8A27E2363910D0022478D /* MemberFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27D2363910D0022478D /* MemberFeedCell.swift */; };
 		F4D8A280236396CE0022478D /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A27F236396CE0022478D /* NavigationConfigurator.swift */; };
+		F4D8A2822363A51E0022478D /* MemberHomeFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A2812363A51E0022478D /* MemberHomeFeedContent.swift */; };
+		F4D8A2852363A5B10022478D /* MemberHomeFeedTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A2842363A5B10022478D /* MemberHomeFeedTemplate.swift */; };
+		F4D8A2872363A72A0022478D /* MemberHomeFeedLimit3.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D8A2862363A7290022478D /* MemberHomeFeedLimit3.json */; };
+		F4D8A2892363A7360022478D /* MemberAccountSummary.json in Resources */ = {isa = PBXBuildFile; fileRef = F4D8A2882363A7360022478D /* MemberAccountSummary.json */; };
+		F4D8A28B2363A90C0022478D /* MemberHomeFeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A28A2363A90C0022478D /* MemberHomeFeedClient.swift */; };
+		F4D8A28E2364D2580022478D /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A28D2364D2580022478D /* Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,20 @@
 			remoteInfo = SwiftUIHackDay;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4D5FB4F2365266500940925 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F4D5FB4E2365266500940925 /* Swinject.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		811C1CF3236370B300258393 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
@@ -71,6 +93,13 @@
 		F4D8A27B2363899D0022478D /* SmallImageMemberFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallImageMemberFeedCell.swift; sourceTree = "<group>"; };
 		F4D8A27D2363910D0022478D /* MemberFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberFeedCell.swift; sourceTree = "<group>"; };
 		F4D8A27F236396CE0022478D /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		F4D8A2812363A51E0022478D /* MemberHomeFeedContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberHomeFeedContent.swift; sourceTree = "<group>"; };
+		F4D8A2842363A5B10022478D /* MemberHomeFeedTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberHomeFeedTemplate.swift; sourceTree = "<group>"; };
+		F4D8A2862363A7290022478D /* MemberHomeFeedLimit3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemberHomeFeedLimit3.json; sourceTree = "<group>"; };
+		F4D8A2882363A7360022478D /* MemberAccountSummary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemberAccountSummary.json; sourceTree = "<group>"; };
+		F4D8A28A2363A90C0022478D /* MemberHomeFeedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberHomeFeedClient.swift; sourceTree = "<group>"; };
+		F4D8A28D2364D2580022478D /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F4D8A2922364D5870022478D /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D5FB4D2365266500940925 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +163,8 @@
 		F4D8A240236263280022478D /* SwiftUIHackDay */ = {
 			isa = PBXGroup;
 			children = (
+				F4D8A2912364D5680022478D /* 3rd Party Frameworks */,
+				F4D8A28C2364D24D0022478D /* IOC Container */,
 				811C1CF5236370BD00258393 /* LoginSignUp */,
 				F4D8A2762363643F0022478D /* Relay */,
 				F4D8A271236355660022478D /* MemberHome */,
@@ -177,6 +209,7 @@
 		F4D8A271236355660022478D /* MemberHome */ = {
 			isa = PBXGroup;
 			children = (
+				F4D8A2832363A5270022478D /* Model */,
 				F4D8A2722363557D0022478D /* MemberHomeView.swift */,
 				F4D8A27923637E400022478D /* AccountHeaderView.swift */,
 				F4D8A27B2363899D0022478D /* SmallImageMemberFeedCell.swift */,
@@ -193,6 +226,34 @@
 			path = Relay;
 			sourceTree = "<group>";
 		};
+		F4D8A2832363A5270022478D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8A2842363A5B10022478D /* MemberHomeFeedTemplate.swift */,
+				F4D8A2812363A51E0022478D /* MemberHomeFeedContent.swift */,
+				F4D8A2862363A7290022478D /* MemberHomeFeedLimit3.json */,
+				F4D8A2882363A7360022478D /* MemberAccountSummary.json */,
+				F4D8A28A2363A90C0022478D /* MemberHomeFeedClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4D8A28C2364D24D0022478D /* IOC Container */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8A28D2364D2580022478D /* Container.swift */,
+			);
+			path = "IOC Container";
+			sourceTree = "<group>";
+		};
+		F4D8A2912364D5680022478D /* 3rd Party Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8A2922364D5870022478D /* Swinject.framework */,
+			);
+			path = "3rd Party Frameworks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +264,7 @@
 				F4D8A23A236263280022478D /* Sources */,
 				F4D8A23B236263280022478D /* Frameworks */,
 				F4D8A23C236263280022478D /* Resources */,
+				F4D5FB4F2365266500940925 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,7 +359,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D8A2872363A72A0022478D /* MemberHomeFeedLimit3.json in Resources */,
 				F4D8A24E2362632B0022478D /* LaunchScreen.storyboard in Resources */,
+				F4D8A2892363A7360022478D /* MemberAccountSummary.json in Resources */,
 				F4D8A24B2362632B0022478D /* Preview Assets.xcassets in Resources */,
 				F4D8A2482362632B0022478D /* Assets.xcassets in Resources */,
 			);
@@ -325,17 +389,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				811C1CFE2363772F00258393 /* SignUpView.swift in Sources */,
+				F4D8A28B2363A90C0022478D /* MemberHomeFeedClient.swift in Sources */,
 				811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */,
 				F4D8A278236364550022478D /* RelayView.swift in Sources */,
 				F4D8A27E2363910D0022478D /* MemberFeedCell.swift in Sources */,
 				F4D8A27C2363899D0022478D /* SmallImageMemberFeedCell.swift in Sources */,
 				F4D8A242236263280022478D /* AppDelegate.swift in Sources */,
+				F4D8A28E2364D2580022478D /* Container.swift in Sources */,
 				F4D8A244236263280022478D /* SceneDelegate.swift in Sources */,
 				F4D8A275236355970022478D /* MainView.swift in Sources */,
+				F4D8A2852363A5B10022478D /* MemberHomeFeedTemplate.swift in Sources */,
 				811C1D002363774300258393 /* SignInView.swift in Sources */,
 				811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */,
 				811C1D02236377B900258393 /* GetYourMoneyRightView.swift in Sources */,
 				F4D8A2732363557D0022478D /* MemberHomeView.swift in Sources */,
+				F4D8A2822363A51E0022478D /* MemberHomeFeedContent.swift in Sources */,
 				F4D8A280236396CE0022478D /* NavigationConfigurator.swift in Sources */,
 				F4D8A27A23637E400022478D /* AccountHeaderView.swift in Sources */,
 			);
@@ -506,6 +574,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIHackDay/Preview Content\"";
 				DEVELOPMENT_TEAM = 94C4Q5DME5;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftUIHackDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +598,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIHackDay/Preview Content\"";
 				DEVELOPMENT_TEAM = 94C4Q5DME5;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftUIHackDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

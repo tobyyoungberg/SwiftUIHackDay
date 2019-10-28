@@ -1,0 +1,59 @@
+{
+    "accounts": [
+        {
+            "id": "20017024",
+            "product": "Money",
+            "title": "MoneyAccount",
+            "balance": "$699,925.01",
+            "lastUpdated": "2019-09-11T22:49:53Z",
+            "action": {
+                "type": "LINK",
+                "url": "/my/money/account/#/",
+                "native": "/money/account",
+                "instrumentation": {
+                    "tapTag": "MMBR:feed:account_summary:TAP",
+                    "attributes": {
+                        "actionType": "MMBR:feed:account_summary:Money",
+                        "accountNumber": "20017024"
+                    }
+                }
+            }
+        },
+        {
+            "id": "5RS06043",
+            "product": "Wealth",
+            "title": "Auto Invest",
+            "balance": "$8,855.12",
+            "action": {
+                "type": "LINK",
+                "url": "/wealth/#/account/100004",
+                "native": "/wealth",
+                "instrumentation": {
+                    "tapTag": "MMBR:feed:account_summary:TAP",
+                    "attributes": {
+                        "actionType": "MMBR:feed:account_summary:Wealth",
+                        "accountNumber": "5RS06043"
+                    }
+                }
+            }
+        },
+        {
+            "id": "5RS20399",
+            "product": "Wealth",
+            "title": "Auto Invest",
+            "balance": "$12,481.75",
+            "action": {
+                "type": "LINK",
+                "url": "/wealth/#/account/100014",
+                "native": "/wealth",
+                "instrumentation": {
+                    "tapTag": "MMBR:feed:account_summary:TAP",
+                    "attributes": {
+                        "actionType": "MMBR:feed:account_summary:Wealth",
+                        "accountNumber": "5RS20399"
+                    }
+                }
+            }
+        }
+    ]
+}
