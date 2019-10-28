@@ -36,14 +36,6 @@ struct LoginSignupView: View {
         }
     }
     
-    
-    func getStartedButtonTapped() {
-        
-    }
-    
-    func signInButtonTapped() {
-        
-    }
 }
 
 
