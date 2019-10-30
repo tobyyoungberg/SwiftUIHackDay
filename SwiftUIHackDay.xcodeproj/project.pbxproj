@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07188D4823637DED00549D5A /* TitleAndDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07188D4723637DED00549D5A /* TitleAndDetail.swift */; };
+		07188D4B236383BA00549D5A /* Ledger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07188D4A236383BA00549D5A /* Ledger.swift */; };
+		07188D4E236389A400549D5A /* FakeLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07188D4D236389A400549D5A /* FakeLedger.swift */; };
+		07B0D66F23639F4900330809 /* IconTitleDetailAndInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0D66E23639F4900330809 /* IconTitleDetailAndInfo.swift */; };
+		07B0D6732363B33000330809 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0D6722363B33000330809 /* CustomDivider.swift */; };
+		07B0D675236A3E8E00330809 /* ThreeInfosWithSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0D674236A3E8E00330809 /* ThreeInfosWithSubtitle.swift */; };
 		811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CF3236370B300258393 /* LoginSignupView.swift */; };
 		811C1CFE2363772F00258393 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CFD2363772F00258393 /* SignUpView.swift */; };
 		811C1D002363774300258393 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1CFF2363774300258393 /* SignInView.swift */; };
@@ -70,6 +76,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07188D4723637DED00549D5A /* TitleAndDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndDetail.swift; sourceTree = "<group>"; };
+		07188D4A236383BA00549D5A /* Ledger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ledger.swift; sourceTree = "<group>"; };
+		07188D4D236389A400549D5A /* FakeLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLedger.swift; sourceTree = "<group>"; };
+		07B0D66E23639F4900330809 /* IconTitleDetailAndInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleDetailAndInfo.swift; sourceTree = "<group>"; };
+		07B0D6722363B33000330809 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		07B0D674236A3E8E00330809 /* ThreeInfosWithSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeInfosWithSubtitle.swift; sourceTree = "<group>"; };
 		811C1CF3236370B300258393 /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
 		811C1CFD2363772F00258393 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		811C1CFF2363774300258393 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -132,6 +144,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07188D492363834E00549D5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8A277236364550022478D /* RelayView.swift */,
+				07B0D674236A3E8E00330809 /* ThreeInfosWithSubtitle.swift */,
+				07188D4723637DED00549D5A /* TitleAndDetail.swift */,
+				07B0D66E23639F4900330809 /* IconTitleDetailAndInfo.swift */,
+				07B0D6722363B33000330809 /* CustomDivider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07188D4C236383C100549D5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07188D4A236383BA00549D5A /* Ledger.swift */,
+				07188D4D236389A400549D5A /* FakeLedger.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		811C1CF5236370BD00258393 /* LoginSignUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,7 +268,8 @@
 		F4D8A2762363643F0022478D /* Relay */ = {
 			isa = PBXGroup;
 			children = (
-				F4D8A277236364550022478D /* RelayView.swift */,
+				07188D4C236383C100549D5A /* Models */,
+				07188D492363834E00549D5A /* Views */,
 			);
 			path = Relay;
 			sourceTree = "<group>";
@@ -405,18 +439,24 @@
 				811C1CFE2363772F00258393 /* SignUpView.swift in Sources */,
 				F4D8A28B2363A90C0022478D /* MemberHomeFeedClient.swift in Sources */,
 				811C1CF4236370B300258393 /* LoginSignupView.swift in Sources */,
+				07188D4B236383BA00549D5A /* Ledger.swift in Sources */,
+				07B0D675236A3E8E00330809 /* ThreeInfosWithSubtitle.swift in Sources */,
 				F4D8A278236364550022478D /* RelayView.swift in Sources */,
 				F4D8A27E2363910D0022478D /* MemberFeedCell.swift in Sources */,
 				F4D8A27C2363899D0022478D /* SmallImageMemberFeedCell.swift in Sources */,
 				F4D8A242236263280022478D /* AppDelegate.swift in Sources */,
+				07B0D66F23639F4900330809 /* IconTitleDetailAndInfo.swift in Sources */,
 				F4D8A28E2364D2580022478D /* Container.swift in Sources */,
 				F4D8A244236263280022478D /* SceneDelegate.swift in Sources */,
+				07B0D6732363B33000330809 /* CustomDivider.swift in Sources */,
 				F4D8A275236355970022478D /* MainView.swift in Sources */,
 				F4D8A2852363A5B10022478D /* MemberHomeFeedTemplate.swift in Sources */,
 				811C1D002363774300258393 /* SignInView.swift in Sources */,
 				811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */,
 				811C1D02236377B900258393 /* GetYourMoneyRightView.swift in Sources */,
 				F4D8A2732363557D0022478D /* MemberHomeView.swift in Sources */,
+				07188D4823637DED00549D5A /* TitleAndDetail.swift in Sources */,
+				07188D4E236389A400549D5A /* FakeLedger.swift in Sources */,
 				F4D8A2822363A51E0022478D /* MemberHomeFeedContent.swift in Sources */,
 				F4D8A280236396CE0022478D /* NavigationConfigurator.swift in Sources */,
 				F4D5FB542367A45400940925 /* MainContainerView.swift in Sources */,
