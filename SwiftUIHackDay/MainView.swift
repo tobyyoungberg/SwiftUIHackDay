@@ -15,12 +15,12 @@ struct MainView: View {
                 .tabItem {
                     Image("home")
                     Text("Home")
-                }
+            }
             RelayView()
                 .tabItem {
                     Image("relay")
                     Text("Relay")
-                }
+            }
         }.accentColor(Color("turquoise400"))
         .edgesIgnoringSafeArea(.top)
     }

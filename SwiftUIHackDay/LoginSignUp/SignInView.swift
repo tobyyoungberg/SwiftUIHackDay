@@ -16,9 +16,10 @@ struct SignInView: View {
     @State var isPasswordHidden = true
     @State var showMainView = false
     
+    @EnvironmentObject var loginStateProvider: LoginStateProvider
+    
     var body: some View {
-        VStack(alignment: .center) {
-            Spacer()
+        VStack {
             HStack {
                 Text("Sign in")
                     .font(Font.custom(fontName, size: 24))
@@ -68,13 +69,14 @@ struct SignInView: View {
         } // Top VSTack
             .padding()
             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-            .overlay(self.showMainView ? MainView() : nil)
             
         
     }
     
     private func signInButtonTapped() {
-        showMainView.toggle()
+        withAnimation(.easeOut(duration: 0.5)) {
+            loginStateProvider.loginState = .loggedIn
+        }
     }
     
     private func forgotPasswordButtonTapped() {

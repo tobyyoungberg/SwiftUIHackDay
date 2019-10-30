@@ -23,7 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return MockMemberHomeFeedClient()
         })
         
-        let mainView = LoginSignupView()
+        let loginState = LoginStateProvider()
+        let mainView = MainContainerView().environmentObject(loginState)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

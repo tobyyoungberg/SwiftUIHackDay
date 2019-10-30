@@ -14,6 +14,8 @@
 		811C1D042363842C00258393 /* WhiteBackgroundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */; };
 		F4D5FB4D2365266500940925 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D8A2922364D5870022478D /* Swinject.framework */; };
 		F4D5FB4E2365266500940925 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4D8A2922364D5870022478D /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4D5FB512367A2C200940925 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5FB502367A2C100940925 /* LoginState.swift */; };
+		F4D5FB542367A45400940925 /* MainContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D5FB532367A45400940925 /* MainContainerView.swift */; };
 		F4D8A242236263280022478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A241236263280022478D /* AppDelegate.swift */; };
 		F4D8A244236263280022478D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8A243236263280022478D /* SceneDelegate.swift */; };
 		F4D8A2482362632B0022478D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D8A2472362632B0022478D /* Assets.xcassets */; };
@@ -73,6 +75,8 @@
 		811C1CFF2363774300258393 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		811C1D01236377B900258393 /* GetYourMoneyRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetYourMoneyRightView.swift; sourceTree = "<group>"; };
 		811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBackgroundLabel.swift; sourceTree = "<group>"; };
+		F4D5FB502367A2C100940925 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		F4D5FB532367A45400940925 /* MainContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerView.swift; sourceTree = "<group>"; };
 		F4D8A23E236263280022478D /* SwiftUIHackDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIHackDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D8A241236263280022478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D8A243236263280022478D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,8 +140,17 @@
 				811C1CFF2363774300258393 /* SignInView.swift */,
 				811C1D01236377B900258393 /* GetYourMoneyRightView.swift */,
 				811C1D032363842C00258393 /* WhiteBackgroundLabel.swift */,
+				F4D5FB502367A2C100940925 /* LoginState.swift */,
 			);
 			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+		F4D5FB522367A43F00940925 /* Main Container */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5FB532367A45400940925 /* MainContainerView.swift */,
+			);
+			path = "Main Container";
 			sourceTree = "<group>";
 		};
 		F4D8A235236263280022478D = {
@@ -163,6 +176,7 @@
 		F4D8A240236263280022478D /* SwiftUIHackDay */ = {
 			isa = PBXGroup;
 			children = (
+				F4D5FB522367A43F00940925 /* Main Container */,
 				F4D8A2912364D5680022478D /* 3rd Party Frameworks */,
 				F4D8A28C2364D24D0022478D /* IOC Container */,
 				811C1CF5236370BD00258393 /* LoginSignUp */,
@@ -405,7 +419,9 @@
 				F4D8A2732363557D0022478D /* MemberHomeView.swift in Sources */,
 				F4D8A2822363A51E0022478D /* MemberHomeFeedContent.swift in Sources */,
 				F4D8A280236396CE0022478D /* NavigationConfigurator.swift in Sources */,
+				F4D5FB542367A45400940925 /* MainContainerView.swift in Sources */,
 				F4D8A27A23637E400022478D /* AccountHeaderView.swift in Sources */,
+				F4D5FB512367A2C200940925 /* LoginState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
