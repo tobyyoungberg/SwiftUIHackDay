@@ -22,6 +22,7 @@ struct MainView: View {
                     Text("Relay")
                 }
         }.accentColor(Color("turquoise400"))
+        .edgesIgnoringSafeArea(.top)
     }
 }
 
